@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creator-fit-scorer"
+version = "0.1.0"
+description = "Score and rank influencers against a brand brief, with explainable scores and an optional Claude review."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Vishwajeet Kumbhar" }]
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["anthropic>=0.40"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+creator-fit = "creator_fit.cli:main"
+
+[tool.setuptools]
+packages = ["creator_fit"]

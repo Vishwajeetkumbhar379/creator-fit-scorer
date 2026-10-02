@@ -1,0 +1,18 @@
+# Example brief. All brands and creators in /examples are fictional.
+brand = "Nordlys Skin"
+product = "Barrier Repair Serum"
+goal = "Drive first purchases among 25-34 year olds in DACH"
+target_countries = ["DE", "AT", "CH"]
+target_ages = ["25-34", "18-24"]
+topics = ["skincare", "beauty", "wellness", "sustainability"]
+platforms = ["instagram", "tiktok"]
+budget_eur = 25000
+max_cpm_eur = 80
+blocked_topics = ["gambling", "crypto"]
+
+[weights]
+audience_fit = 0.30
+content_fit = 0.25
+engagement_health = 0.25
+cost_efficiency = 0.10
+brand_safety = 0.10
