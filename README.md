@@ -2,6 +2,8 @@
 
 **Turn a two-day creator shortlist into a one-hour review.**
 
+![Real output from the sample data included in this repo](docs/demo.png)
+
 Drop in a list of creators and a brand brief. The scorer ranks every creator on five pillars, explains each score in plain language, flags risky accounts, and (optionally) asks Claude for a second opinion plus a ready-to-send outreach draft.
 
 I built this because I spent years doing this by hand. Across 850+ creator deals for brands like HUL, Philips and L'Oréal, the shortlist step always ate the most time and was the hardest to defend to clients. This makes it fast, consistent and explainable.
